@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+/* Reset 🤔 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Main ❤ */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f9df84;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  color: #e55934;
+}
+
+header #timeStamp {
+  color: #340b1c;
+  margin: 10px;
+}
+
+main h1 {
+  margin: 20px;
+  color: #aa9443;
+}
+
+main {
+  text-align: center;
+  /* border: 2px solid red; */
+}
+main img {
+  width: 50%;
+  height: auto;
+}
+
+.option-container img {
+  width: 55px;
+  height: 55px;
+}
+
+.option-container button {
+  background-color: transparent;
+  width: 80px;
+  border: 2px solid #e55934;
+  height: 80px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
+button:focus {
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.28);
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+#results {
+  color: #340b1c;
+}
+
+/* Medai Queries 💕 */
+
+/* Animations 💋 */
+
+.heartbeat {
+  -webkit-animation: heartbeat 10s ease-in-out infinite both;
+  animation: heartbeat 10s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
